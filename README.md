@@ -4,6 +4,14 @@ Tema personalizado para la plataforma Moodle del **Liceo Pino Verde**, basado en
 
 ---
 
+## 📸 Vista previa
+
+| Pantalla Principal |
+|--------------------|
+| ![Screenshot del tema activado](pix/screenshot.jpg) |
+
+---
+
 ## ✨ Características principales
 
 - 🔵 Basado en el tema *Academi* de Moodle.
@@ -17,3 +25,27 @@ Tema personalizado para la plataforma Moodle del **Liceo Pino Verde**, basado en
 
 ## 📦 Estructura del tema
 
+pinoverde/
+├── amd/ # Módulos AMD JS (frontpage, slider, etc.)
+│ ├── build/ # Archivos JavaScript compilados
+│ └── src/ # Archivos fuente JavaScript
+├── lang/ # Archivos de idioma (en, es, etc.)
+├── pix/ # Imágenes del tema (logos, íconos)
+├── scss/ # Estilos personalizados en SCSS
+├── templates/ # Plantillas de salida (layouts, partials)
+├── config.php # Configuración del tema
+├── lib.php # Funciones auxiliares del tema
+├── settings.php # Panel de configuración en el administrador
+├── version.php # Versión del tema y requisitos de Moodle
+└── README.md # Este archiv
+
+---
+
+## ⚙️ Instalación
+
+1. **Ubica la carpeta:**
+   Coloca la carpeta `pinoverde` dentro del directorio `/theme/` de tu instalación de Moodle.
+
+2. **Asigna los permisos correctos:**
+   ```bash
+   sudo chown -R www-data:www-data /ruta-a-tu-moodle/theme/pinoverde
